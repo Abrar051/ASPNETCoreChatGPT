@@ -228,7 +228,7 @@ namespace ASPNETCoreChatGPT.Controllers
 
             string url = "https://api-inference.huggingface.co/models/facebook/bart-large-mnli";
             var request = new HttpRequestMessage(HttpMethod.Post, url);
-            request.Headers.Add("Authorization", "Bearer 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");
+            request.Headers.Add("Authorization", "Bearer {place your hugging face api key}");
 
             var payload = new
             {
@@ -265,7 +265,7 @@ namespace ASPNETCoreChatGPT.Controllers
         public async Task<object> StableDiffusion(string question)
         {
             var request = new HttpRequestMessage(HttpMethod.Post, "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0");
-            request.Headers.Add("Authorization", "Bearer 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");
+            request.Headers.Add("Authorization", "Bearer {place your api key}");
             var payload = new
             {
                 inputs = question,
@@ -302,7 +302,7 @@ namespace ASPNETCoreChatGPT.Controllers
  
             string url = "https://api-inference.huggingface.co/models/deepset/roberta-base-squad2";
             var request = new HttpRequestMessage(HttpMethod.Post, url);
-            request.Headers.Add("Authorization", "Bearer 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");
+            request.Headers.Add("Authorization", "Bearer {place your api key}");
 
             var payload = new
             {

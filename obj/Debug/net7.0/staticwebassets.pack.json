@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Administrator\\Downloads\\ASPNETCoreChatBot-master\\ASPNETCoreChatBot-master\\ASPNETCoreChatGPT\\wwwroot\\Scripts\\script.js",
+      "PackagePath": "staticwebassets\\Scripts\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Downloads\\ASPNETCoreChatBot-master\\ASPNETCoreChatBot-master\\ASPNETCoreChatGPT\\wwwroot\\images\\bot.png",
+      "PackagePath": "staticwebassets\\images\\bot.png"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Downloads\\ASPNETCoreChatBot-master\\ASPNETCoreChatBot-master\\ASPNETCoreChatGPT\\wwwroot\\images\\loader.gif",
+      "PackagePath": "staticwebassets\\images\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Administrator\\Downloads\\ASPNETCoreChatBot-master\\ASPNETCoreChatBot-master\\ASPNETCoreChatGPT\\wwwroot\\images\\user.png",
+      "PackagePath": "staticwebassets\\images\\user.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ASPNETCoreChatGPT.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ASPNETCoreChatGPT.props",
+      "PackagePath": "build\\ASPNETCoreChatGPT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ASPNETCoreChatGPT.props",
+      "PackagePath": "buildMultiTargeting\\ASPNETCoreChatGPT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ASPNETCoreChatGPT.props",
+      "PackagePath": "buildTransitive\\ASPNETCoreChatGPT.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
